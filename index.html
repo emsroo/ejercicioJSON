@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Nombre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Ejercicio Nombre</h1>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="js/main.js">    </script>
+    
+    <!-- // Boton y formulario -->
+    <form class="row g-3">
+        <div class="col-auto">
+          <label for="txtIndicacion" class="visually-hidden">Nombre</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Ingresa tu nombre">
+        </div>
+        <div class="col-auto">
+          <label for="txtNombre" class="visually-hidden"></label>
+          <input type="text" class="form-control" id="txtNombre" placeholder="Maria">
+        </div>
+        <div class="col-auto">
+            <button type="submit" id="btnMostrar" class="btn btn-primary mb-3">Guardar</button>
+        </div>
+      </form>
+      <!-- buton hacia welcome  -->
+      <button type="button"   onclick="location.href='./welcome.html'" class="btn btn-primary">Al welcome</button>
+
+</body>
+</html>
+
